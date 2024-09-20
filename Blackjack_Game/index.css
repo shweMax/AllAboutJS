@@ -1,14 +1,51 @@
-/* Complete the CSS styling according to the provided design */
-
 body {
-  
-    
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-image: url("images/table.png");
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-weight: bold;
 }
 
 h1 {
-    color: goldenrod;
+  color: goldenrod;
+  font-size: 2.5rem;
 }
 
 #message-el {
-    
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+button {
+  font-size: 1.2rem;
+}
+
+#btn {
+  color: #016f32;
+  background-color: goldenrod;
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  width: 210px;
+}
+
+#btn-newCard {
+  color: #016f32;
+  background-color: goldenrod;
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 210px;
 }

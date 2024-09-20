@@ -30,4 +30,47 @@
 // else{
 //   console.log("Not elegible, you have already gotten one")
 // }
+// Create an array that lists your i.e. experience, education, licenses, skills or similar
+// The items of the array should be strings
+let experience = [
+  "CEO at Scrimba",
+  "Frontend developer at Xeneta",
+  "People counter for Norstat",
+];
 
+// Make the following appear in the console:
+// Frontend developer at Xeneta
+// People counter for Norstat
+// CEO at Scrimba
+
+// console.log(experience[1]);
+// console.log(experience[2]);
+// console.log(experience[0]);
+// console.log(experience.length);
+
+// Array - ordered list of items - coposite / complex data type
+
+// Create an array that describes yourself. Use the three primitive data types you've learned
+// It should contain your name (string), your age (number), and whether you like pizza (boolean)
+let allAboutMe = ["Anna", 21, true];
+// console.log(allAboutMe[1]);
+
+////////////////////////////////
+let cards = [7, 4];
+cards.push(6);
+//console.log(cards)
+
+// Push the newMessage to the messages array, and then log out the array
+
+let messages = [
+  "Hey, how's it going?",
+  "I'm great, thank you! How about you?",
+  "All good. Been working on my portfolio lately.",
+];
+
+let newMessage = "Same here!";
+let newMsg = messages.push(newMessage);
+console.log(messages);
+
+messages.pop();
+console.log(messages);
